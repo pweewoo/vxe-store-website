@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>vxe.store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="#main" class="nav-logo">VXE<span>.STORE</span></a>
+
+    <input type="checkbox" class="nav-toggle" id="nav-toggle" />
+
+    <label class="nav-mobile" for="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <div class="nav-menu">
+      <ul class="nav-links">
+        <li><a href="#main"        onclick="document.getElementById('nav-toggle').checked=false">Home</a></li>
+        <li><a href="#product"     onclick="document.getElementById('nav-toggle').checked=false">Products</a></li>
+        <li><a href="#description" onclick="document.getElementById('nav-toggle').checked=false">About</a></li>
+        <li><a href="#reviews"     onclick="document.getElementById('nav-toggle').checked=false">Reviews</a></li>
+        <li><a href="#faq"         onclick="document.getElementById('nav-toggle').checked=false">FAQs</a></li>
+        <li><a href="#contact"     onclick="document.getElementById('nav-toggle').checked=false">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="main">
+    <div class="main-text">
+      <span class="main-tag">New Arrival</span>
+      <h1>Meet the <br><em>VXE R1 PRO</em><br> Series</h1>
+      <p>Ultra-light &nbsp;·&nbsp; Ultra-fast &nbsp;·&nbsp; Built to win</p>
+      <div class="main-price">
+        PHP 1,199.00 
+      </div>
+      <div class="main-actions">
+        <a href="#contact" class="btn btn-primary">Order Now</a>
+        <a href="#description" class="btn btn-outline">Learn More</a>
+      </div>
+    </div>
+    <div class="main-img">
+      <img src="img/r1series.png" alt="VXE R1 Series" />
+    </div>
+  </section>
+
+  <section id="product">
+    <div class="container">
+      <p class="section-label">Our Products</p>
+      <h2 class="section-title">What We Offer</h2>
+      <p class="section-sub">Browse through our full lineup and find the one that fits you best.</p>
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="img/v3.jpg" alt="VXE Dragonfly V3" />
+          </div>
+          <div class="product-info">
+            <h3>VXE Dragonfly V3</h3>
+            <p>Lightweight 49g wireless mouse with smooth ice-feel coating and versatile tri-mode connection.</p>
+            <div class="product-bottom">
+              <span class="product-price">PHP 999</span>
+              <button class="btn-sm">Order</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="img/bzskywebp.jpg" alt="VXE Blazing Sky" />
+          </div>
+          <div class="product-info">
+            <h3>VXE Blazing Sky</h3>
+            <p>Ultra-lightweight high-performance wireless gaming mouse designed for competitive.</p>
+            <div class="product-bottom">
+              <span class="product-price">PHP 1,299</span>
+              <button class="btn-sm">Order</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="img/vxefierce.jpg" alt="VXE x ATK Fierce" />
+          </div>
+          <div class="product-info">
+            <h3>VXE x ATK Fierce</h3>
+            <p>Top-tier choice for competitive gamers — lightweight, durable magnesium alloy build.</p>
+            <div class="product-bottom">
+              <span class="product-price">PHP 1,599</span>
+              <button class="btn-sm">Order</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="img/vxeghost.jpg" alt="VXE Hollow Ghost" />
+          </div>
+          <div class="product-info">
+            <h3>VXE Hollow Ghost</h3>
+            <p>Hollowed-out carbon fiber composite delivers unmatched build quality and feel.</p>
+            <div class="product-bottom">
+              <span class="product-price">PHP 2,099</span>
+              <button class="btn-sm">Order</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="description">
+    <div class="container">
+      <div class="desc-grid">
+        <div class="desc-img-wrap">
+          <img src="img/R1_-1.jpg" alt="VXE R1 Detail" />
+        </div>
+        <div>
+          <p class="section-label">About the Product</p>
+          <h2 class="section-title">Why This One?</h2>
+          <p style="color: var(--muted); font-size: 0.93rem; font-weight: 300; margin-bottom: 1rem;">
+            The VXE R1 PRO is a lightweight wireless gaming mouse designed for speed and precision — ideal for competitive gaming.
+          </p>
+          <p style="color: var(--muted); font-size: 0.93rem; font-weight: 300;">
+            Ergonomic shape, smooth coating, and responsive clicks provide comfort and control, while its affordable price makes it a popular choice among budget-conscious gamers.
+          </p>
+          <ul class="desc-features">
+            <li>Sensor — PAW3395 SE / PAW3395</li>
+            <li>MCU — BEKEN(compx) / Nordic 52840</li>
+            <li>Polling Rate — 125–4000Hz (Adjustable)</li>
+            <li>Weight — 48g–55g (Varies by Model)</li>
+            <li>Dimension — 120.6mm × 64mm × 37.8mm</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <div class="container">
+      <p class="section-label">Customer Reviews</p>
+      <h2 class="section-title">What People Say</h2>
+      <p class="section-sub">Real feedback from real customers. No cap.</p>
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <p class="review-text">Ultra lightweight wireless gaming mice. The quality is just chef's kiss. Will definitely order again.</p>
+          <div class="review-author">
+            <div class="review-avatar">JD</div>
+            <div>
+              <div class="review-author-name">Juan Dela Cruz</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <p class="review-text">I've tried so many similar products and none of them compare. This one actually works like it says. 10/10 would recommend.</p>
+          <div class="review-author">
+            <div class="review-avatar">MR</div>
+            <div>
+              <div class="review-author-name">Maria Reyes</div>
+              <div class="review-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-quote">"</div>
+          <p class="review-text">Super fast delivery and the packaging was really nice. The product is exactly what was shown in the photos. Super satisfied!</p>
+          <div class="review-author">
+            <div class="review-avatar">KS</div>
+            <div>
+              <div class="review-author-name">Karl Santos</div>
+              <div class="review-stars">★★★★☆</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="container">
+      <p class="section-label">FAQ</p>
+      <h2 class="section-title">Common Questions</h2>
+      <p class="section-sub">Quick answers to things people usually ask before ordering.</p>
+      <div class="faq-wrapper">
+
+        <details class="faq-item">
+          <summary class="faq-q">
+            How do I place an order?
+            <span class="faq-icon">+</span>
+          </summary>
+          <div class="faq-a">
+            Fill out the contact form at the bottom of this page or reach out via our social media. We'll confirm everything and walk you through payment and delivery.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-q">
+            Do you ship nationwide?
+            <span class="faq-icon">+</span>
+          </summary>
+          <div class="faq-a">
+            Yes, we ship anywhere in the Philippines through trusted couriers. Shipping fees and ETAs will be given once your order is confirmed.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-q">
+            What payment methods are accepted?
+            <span class="faq-icon">+</span>
+          </summary>
+          <div class="faq-a">
+            We accept GCash, bank transfer (BDO, BPI, UnionBank), and COD for select areas. Full payment details are sent after you place your order.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-q">
+            Can I return or exchange an item?
+            <span class="faq-icon">+</span>
+          </summary>
+          <div class="faq-a">
+            Returns and exchanges are accepted within 7 days, as long as the item is unused and in original condition. Just message us right away if there's a problem.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-q">
+            How long does delivery take?
+            <span class="faq-icon">+</span>
+          </summary>
+          <div class="faq-a">
+            Metro areas: 2–4 business days. Provincial: 5–7 business days. A tracking number will be sent once your package is on its way.
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary class="faq-q">
+            Are these brand new and authentic?
+            <span class="faq-icon">+</span>
+          </summary>
+          <div class="faq-a">
+            Yes, all products are 100% brand new and authentic. We source directly from verified distributors so you can buy with confidence.
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Contact Us</p>
+      <h2 class="section-title">Send Us a Message</h2>
+      <p class="section-sub">Questions, orders, or just want to say hi — we're around.</p>
+
+      <div class="contact-top">
+        <div class="contact-detail">
+          <span>📧</span>
+          <span>vxestore@gmail.com</span>
+        </div>
+        <div class="contact-detail">
+          <span>📱</span>
+          <span>+63 9XX XXX XXXX</span>
+        </div>
+        <div class="contact-detail">
+          <span>📍</span>
+          <span>Iloilo City, PH</span>
+        </div>
+        <div class="contact-detail">
+          <span>🕐</span>
+          <span>Mon–Sat, 9AM–6PM</span>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <h3>Drop us a message</h3>
+        <p>We usually reply within the day. Fill in the details below and we'll get back to you.</p>
+        <div class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="Juan" />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Dela Cruz" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="juan@email.com" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" placeholder="+63 9XX XXX XXXX" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="prod">Product Interested In</label>
+            <select id="prod">
+              <option value="" disabled selected>Select a product...</option>
+              <option>VXE Dragonfly V3</option>
+              <option>VXE Blazing Sky</option>
+              <option>VXE x ATK Fierce</option>
+              <option>VXE Hollow Ghost</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell us what you need..."></textarea>
+          </div>
+          <button type="button" class="btn-submit">Send Message</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#main">Home</a>
+      <a href="#product">Products</a>
+      <a href="#description">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQs</a>
+      <a href="#contact"
